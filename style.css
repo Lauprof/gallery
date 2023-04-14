@@ -1,0 +1,45 @@
+*{
+  
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+}
+@font-face{
+  font-family: myFont;
+  src:url("Itim-Regular.ttf");
+  
+  
+}
+
+
+
+.gallery{
+  margin: 10px;
+  text-align: center ;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  
+  width: 80%;
+  
+  
+}
+.gallery img{
+  width:100%;
+  height:auto;
+}
+div.desc{
+  padding:10px;
+  font-family: myFont;
+  
+}
+
+
+
+@media screen and (min-width:788px) {
+  div.gallery{
+    width:90%;
+    
+  }
+  div.desc{
+    font-size: 30px;
+  }
+}
